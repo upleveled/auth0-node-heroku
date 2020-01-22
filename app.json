@@ -13,7 +13,7 @@
       "description": "Your Auth0 Client Id."
     },
     "AUTH0_CLIENT_SECRET": {
-      "description": "Your Auth0 Client Id."
+      "description": "Your Auth0 Client Secret."
     },
     "AUTH0_CALLBACK_URL": {
       "description": "The allowable callback URL configured in Auth0. Either specify a Heroku app name above or update after the app is created.",
