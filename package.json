@@ -27,6 +27,6 @@
     "eslint-plugin-standard": "^4.0.0"
   },
   "resolutions": {
-    "mkdirp": "^0.5.3"
+    "mkdirp": "^1.0.0"
   }
 }
