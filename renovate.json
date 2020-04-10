@@ -8,5 +8,9 @@
       "updateTypes": ["patch", "minor"],
       "groupName": "dependencies (non-major)"
     }
+  ],
+  "schedule": [
+    "on friday",
+    "every weekend"
   ]
 }
