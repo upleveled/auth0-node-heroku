@@ -9,8 +9,5 @@
       "groupName": "dependencies (non-major)"
     }
   ],
-  "schedule": [
-    "on friday",
-    "every weekend"
-  ]
+  "schedule": "on friday and saturday and sunday"
 }
