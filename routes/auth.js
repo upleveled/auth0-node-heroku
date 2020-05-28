@@ -14,24 +14,24 @@ router.get(
   passport.authenticate('auth0', {
     scope: 'openid email profile',
   }),
-  function(req, res) {
+  function (req, res) {
     res.redirect('/');
   },
 );
 
 // Perform the final stage of authentication and redirect to previously requested URL or '/user'
-router.get('/callback', function(req, res, next) {
-  passport.authenticate('auth0', function(err, user, info) {
-    if (err) {
-      return next(err);
+router.get('/callback', function (req, res, next) {
+  passport.authenticate('auth0', function (auth0Err, user, info) {
+    if (auth0Err) {
+      return next(auth0Err);
     }
     if (!user) {
       console.error('no user! info:', info);
       return res.redirect('/');
     }
-    req.logIn(user, function(err) {
-      if (err) {
-        return next(err);
+    req.logIn(user, function (loginErr) {
+      if (loginErr) {
+        return next(loginErr);
       }
       const returnTo = req.session.returnTo;
       delete req.session.returnTo;
