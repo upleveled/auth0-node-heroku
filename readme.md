@@ -2,7 +2,7 @@
 
 A starter template for server-side authentication with Node.js using Auth0 (deployable to Heroku).
 
-Based off of [the official Node.js Web App Sample](https://github.com/auth0-samples/auth0-nodejs-webapp-sample).
+Based off of [the official Auth0 Node.js Web App Sample](https://github.com/auth0-samples/auth0-nodejs-webapp-sample).
 
 ## Set up Auth0
 
