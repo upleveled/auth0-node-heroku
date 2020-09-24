@@ -19,7 +19,7 @@ Setup for Auth0 is fast and easy:
 
 Create a Heroku account at [Heroku - Sign up](https://signup.heroku.com/), and then click on this button:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/upleveled/auth0-node-heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/upleveled/auth0-node-heroku)
 
 This will set up a new application on your Heroku account using this repo as a template.
 
