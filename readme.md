@@ -1,4 +1,6 @@
-# Auth0 + Node.js on Heroku
+# Auth0 + Node.js on Heroku - UNMAINTAINED
+
+# ⚠️ UNMAINTAINED
 
 A starter template for server-side authentication with Node.js using Auth0 (deployable to Heroku).
 
